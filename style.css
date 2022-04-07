@@ -1,0 +1,305 @@
+/* ---------------  Fonts -----------------  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+:root {
+
+    --primary-color: #efefef;
+    --secondary-color: #121212;
+    --btn: red;
+    --btnhover: blue;
+}
+
+body {
+    background: var(--primary-color);
+}
+
+
+/* -------------   navbar -------------- */
+
+
+.logo-img {
+    margin-left: 20px;
+}
+
+nav {
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+
+    height: 8vh;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 2.2vh;
+    padding: 2px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--header-color2);
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
+}
+
+
+/* ------------------ buttons ------------------- */
+
+
+.btn {
+    background: var(--header-color);
+    display: flex;
+    margin: 5px 20px;
+
+
+}
+
+.btns {
+    /* margin: px; */
+    margin-left: 8px;
+    background: var(--btnhover);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btns:hover {
+    background: var(--btn);
+
+}
+
+/* -------------------------- LANDING PAGE------------------------ */
+.main {
+    margin-bottom: 300px;
+}
+
+.serve {
+    float: left;
+    margin: 170px 0px 0px 120px;
+}
+
+.title {
+    font-size: 50px;
+    white-space: pre;
+}
+
+.order-btn {
+    background: var(--btn);
+    color: white;
+    margin: 1.5rem;
+    border-radius: 24px;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.order-btn:hover {
+    background: var(--btnhover);
+
+
+}
+
+.food-plate {
+    float: right;
+    margin-top: 140px;
+    margin-right: 30px;
+    filter: drop-shadow(10px 10px 10px rgba(34, 37, 40, 0.671));
+}
+
+.food-plate:hover {
+    transform: scale(1.05);
+}
+
+.info {
+    color: white;
+}
+
+/* #aboutus{ */
+}
+
+
+#aboutus {
+    height: 100vh;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+    width: 80%;
+    /* background: black; */
+
+}
+
+.food {
+    float: left;
+}
+
+.food2 {
+    border-radius: 20px;
+    width: 500px;
+    margin: 38px 0px 0px 60px;
+
+    filter: drop-shadow(10px 10px 10px rgba(34, 37, 40, 0.671));
+}
+
+.info {
+    width: 500px;
+    float: right;
+    margin: 38px 60px 0px 60px;
+    color: black;
+    padding: 30px;
+}
+
+
+.p1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p2 {
+    font-size: 18px;
+}
+
+.p3 {
+    background: var(--btn);
+    margin: 1.5rem;
+    border-radius: 24px;
+    width: 125px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.p3:hover {
+    background: var(--btnhover);
+}
+
+
+/* ------------------- Catogories ----------------------  */
+
+.catogeries {
+
+    margin: 1000px 0px 200px 140px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 60px;
+    height: 30vh
+}
+
+.cat {
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    filter: drop-shadow(10px 10px 10px rgba(34, 37, 40, 0.671));
+}
+
+.cat:hover {
+    filter: drop-shadow(10px 10px 10px rgba(34, 37, 40, 0.871));
+}
+
+.menu-item {
+    font-size: 24px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 89px;
+}
+
+.full-menu {
+    text-align: center;
+    margin: 10px;
+    margin-left: 553px;
+    font-size: 15px;
+    color: white;
+    padding: 12px;
+    background: var(--btn);
+    padding: 10px;
+    width: 135px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.full-menu:hover {
+    background: var(--btnhover);
+}
+
+/* ----------------------------- Customer reviews   ----------------------------------  */
+
+
+.head {
+    margin-top: 18vh;
+    display: block;
+    text-align: center;
+    font-size: 32px;
+}
+
+.img-circle {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.reviews {
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+    color: slateblue;
+}
+
+.user-name {
+    font-size: 22px;
+}
+
+/* -------------------------  Footer Content -------------------------  */
+
+.footer-content {
+    margin: 5vh 10vw 0vw 10vw;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+.social {
+    margin-right: 8px;
+}
+
+footer {
+    font-size: 20px;
+}
+
+.mail {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+}
+.mail-img{
+    height: 14px;
+    margin: 5px 10px;
+    /* display: flex; */
+}
